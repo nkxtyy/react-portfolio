@@ -1,13 +1,14 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
+  "homepage": "https://nkxtyy.github.io/react-portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "next build",
-    "deploy": "gh-pages -d out",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "export": "next export",
     "lint": "next lint"
   },
@@ -16,7 +17,8 @@
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.2.1"
+    "react-icons": "^5.2.1",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "eslint": "^8",
