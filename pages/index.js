@@ -2,11 +2,11 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import Image from "next/image";
-import krit from "../public/portfolio/krit.png";
-import k1 from "../public/portfolio/k1.png";
-import k2 from "../public/portfolio/k2.png";
-import k3 from "../public/portfolio/k3.png";
-import global from '../styles/global.css';
+import krit from "../public/krit.png";
+import k1 from "../public/k1.png";
+import k2 from "../public/k2.png";
+import k3 from "../public/k3.png";
+
 
 import { useState } from "react";
 
