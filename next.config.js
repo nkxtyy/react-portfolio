@@ -2,8 +2,8 @@
 const nextConfig = {
   // Enable static export
   output: 'export',
-  basePath: '/react-portfolio',
-  assetPrefix: '/react-portfolio/',
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
   images: {
     unoptimized: true,  // Disable image optimization
   },
